@@ -1,6 +1,8 @@
 // Кирпа Артемий 
 // ЭФБО-08-26
 // ЗАДАНИЯ 1-3 
+
+
 // задание 1 
 
 // #include <iostream>
@@ -20,21 +22,37 @@
 
 
 
-#include <iostream>
-using namespace std;
 
-int main() {
-    int n;
-    cin >> n;
+// Задание 2
 
-    long long f = 1; // текущий факториал
-    long long p = 1; // произведение факториалов
+// #include <iostream>
+// using namespace std;
 
-    for (int i = 1; i <= n; i++) {
-        f = f * i;
-        p = p * f;
-    }
+// int main() {
+//     int n;
+//     cin >> n;
+//     int f = 1; // текущий факториал
+//     int p = 1; // произведение факториалов
+//     for (int i = 1; i <= n; i++) {
+//         f = f * i;
+//         p = p * f;
+//     }
+//     cout << p;
+//     return 0;
+// }
 
-    cout << p;
-    return 0;
-}
+
+
+
+// Задание 3 
+
+// #include <iostream>
+// using namespace std;
+
+// int main() {
+//     int a;
+//     cin >> a;
+//     int b = 2 - a;
+//     cout << b;
+//     return 0;
+// }
